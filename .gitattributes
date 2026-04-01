@@ -1,0 +1,5 @@
+* linguist-vendored
+*.kt linguist-vendored=false
+*.kts linguist-vendored=false
+SDLC/* linguist-documentation
+README.md linguist-documentation
