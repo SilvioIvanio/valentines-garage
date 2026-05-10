@@ -1,0 +1,731 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/app/src/main/AndroidManifest.xml:2:1-31:12
+MERGED from [androidx.hilt:hilt-navigation-compose:1.2.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/a595851c4f2431be9a5987d362e0a128/transformed/hilt-navigation-compose-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.hilt:hilt-navigation:1.2.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6f376d2485d8787a42c1929191896036/transformed/hilt-navigation-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-common:2.8.3] /Users/silvioivanio/.gradle/caches/8.13/transforms/b75aca4387e27856ab69555d97716212/transformed/navigation-common-2.8.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.8.3] /Users/silvioivanio/.gradle/caches/8.13/transforms/da442483114798b935097aaec6ca680b/transformed/navigation-runtime-2.8.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.3] /Users/silvioivanio/.gradle/caches/8.13/transforms/bc6a7d60cf012fcf5cfe24b6a70a7183/transformed/navigation-common-ktx-2.8.3/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.3] /Users/silvioivanio/.gradle/caches/8.13/transforms/008b49861ad77ed5ba470b750df95c0c/transformed/navigation-runtime-ktx-2.8.3/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-compose:2.8.3] /Users/silvioivanio/.gradle/caches/8.13/transforms/2dbe44666551a0eb374b5757c5946285/transformed/navigation-compose-2.8.3/AndroidManifest.xml:2:1-7:12
+MERGED from [:feature:auth] /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/feature/auth/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:feature:checkin] /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/feature/checkin/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:feature:mechanic] /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/feature/mechanic/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:feature:admin] /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/feature/admin/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:core:data] /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/core/data/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.dagger:hilt-android:2.52] /Users/silvioivanio/.gradle/caches/8.13/transforms/c24dcda4df0581db36af4188fad6a4a0/transformed/hilt-android-2.52/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.firebase:firebase-auth:23.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d62c6174c74ecbda1b6b992afec00447/transformed/firebase-auth-23.1.0/AndroidManifest.xml:17:1-75:12
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/2ce38c592052e7bf41773f1717af407a/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:2:1-26:12
+MERGED from [:core:domain] /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/core/domain/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/e032dea0267bf19b7620e9debc34a887/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d837713daa5b2879173556cd92f63c71/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/c2855e5696380716f6947f8d8d36a61f/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] /Users/silvioivanio/.gradle/caches/8.13/transforms/df24fafb81c4a863c3d8b436fe9c2333/transformed/credentials-1.2.0-rc01/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/silvioivanio/.gradle/caches/8.13/transforms/a7b43e0f5317ce55acc01dfe0ad1c7c8/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/a08559c4e95e3226e021fee4ed6daf47/transformed/play-services-auth-20.7.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/bfc73ebd667019ecb3505b2a1eb6dcf2/transformed/play-services-auth-api-phone-18.0.2/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8149d02fda6d8af1ae60b39f495d5f84/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/763dae5cd892cec0ef582d93e388406c/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/a8022d9b96ec84b7a2dc58ede3aa5042/transformed/play-services-fido-20.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/silvioivanio/.gradle/caches/8.13/transforms/3f0d3334a147473eff223914ce67a6bf/transformed/play-services-auth-base-18.0.4/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/161514673d36704666b6c387005b6acc/transformed/play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/739afbc9d69f938fc9220f6e1a0cec11/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [:core:ui] /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/core/ui/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigationevent:navigationevent-android:1.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/91d59f73ffd6b0000ffbb99566ce6c7a/transformed/navigationevent/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigationevent:navigationevent-compose-android:1.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/afe3d5d346b6f484bceec5610c679b62/transformed/navigationevent-compose/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material3:material3-android:1.3.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/c7295aeabec523eb600d555b69450700/transformed/material3-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6dbfa642995cbe8c9a0cf4bb1435b1e0/transformed/material-icons-extended-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.7.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/1c9bca518d93314702aa070ef56f33a8/transformed/material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/79f8aa52cc87fde257f1ca6ed97644e0/transformed/ui-tooling-data/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/c2175ec56a3991cfd30b7315272475ba/transformed/ui-tooling-preview/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.foundation:foundation-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/a4162e500fefb8c827333991b5a90fb5/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/3ae2f06d2474481b9bfc0f2545e4d304/transformed/foundation-layout/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/580243d7fe999566372cecdef2230108/transformed/animation-core/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/fd685d8facbd50322b69d2b12e77185e/transformed/animation/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/2e5540e4b581a5f64c4a5e5f9fe8e700/transformed/ui-util/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/105e72e8659b4568e4d3a85ad5d5c5cd/transformed/ui-unit/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/3c2867728e1562cb5f4dcc1e782fbbef/transformed/ui-text/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/e0fdbe03efba43c5575bf95b7f32bc18/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/7948c2984633ff2b7f4d6a47b070be9e/transformed/ui-geometry/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/9947b98e3f027f020ad0cc1eb1338202/transformed/ui-test-manifest-1.9.2/AndroidManifest.xml:17:1-29:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/00895d9c57556936b2f9dacc8780e3de/transformed/ui-tooling/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.material:material-android:1.7.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/df7b8c2958ed9deb4adabc58c0d385c6/transformed/material-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/e3af008fd55a512f00cf6a8def6dc0c9/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/632fdbd67c887e8ac1d33b15dcf4d4d5/transformed/ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/992aa7858144decb1b7db80b1f091bb5/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/0759f5f03907642e8d0636094db8041f/transformed/graphics-path-1.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8271f1aa6998f71b4f04e183e6731f2e/transformed/emoji2-1.4.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.core:core:1.18.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8c0981d679dffc375684bc2424e1aaa5/transformed/core-1.18.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.activity:activity-ktx:1.13.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/727b7a809cbd955ec443a164c46a0d9e/transformed/activity-ktx-1.13.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.10.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/ea186d648ccec84c6bb05a218ea8e33f/transformed/lifecycle-process-2.10.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.10.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/e09f970e6876347c4f854008a608dcfa/transformed/lifecycle-livedata-core-ktx-2.10.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/254f2cae900bd513e529c79fe8c09ce1/transformed/lifecycle-viewmodel-ktx-2.10.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.10.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d3d6fcfe77ebabec477885b1e9d8016c/transformed/lifecycle-livedata-2.10.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.10.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/52fb4e6625d20a32ade031fc5aabe243/transformed/lifecycle-viewmodel-savedstate/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.10.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/2ca30a28cab0463221ca3ded3706928c/transformed/lifecycle-viewmodel-2.10.0/AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.10.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/42c61585671951e4a5bb58e5714c1049/transformed/lifecycle-viewmodel/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-annotation-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/b93fd0e972d66a5ab226144dbb11ade6/transformed/runtime-annotation/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6a7b86acccf894d4f09305eee21597a6/transformed/savedstate-ktx-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-android:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/e520525276768b4e78376e85c356b215/transformed/savedstate/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-compose-android:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/9b1be4796c3710c5c33cc010c78c8c06/transformed/savedstate-compose/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/f29666f865223129c2ac5b22ca61f27a/transformed/runtime/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/a4b014fb88fed76d6e2d9b079d00ef82/transformed/runtime-saveable/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.10.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/fd342c9e143f4b38b93a329bc5414ab7/transformed/lifecycle-runtime-compose/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.10.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/280d0b9c725f71c8ad7107e4dfd400e0/transformed/lifecycle-runtime/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.10.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/79a9c0e1ca30a2db8fd1d9a1bfafbc1b/transformed/lifecycle-viewmodel-compose/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.10.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6f8ba4ac41d4307fc81197666ee47332/transformed/lifecycle-livedata-core-2.10.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.10.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6b8d05c94cfd9842553a0b13c451ecac/transformed/lifecycle-runtime-ktx/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/1f8f12dc577e054da1aa650e5eb9b6de/transformed/recaptcha-18.5.1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/696a49a864f749b102067dbfc9340e3b/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d39a117771608f496c578e84aa812b4f/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8005ab06b4b1c66aaf74e12c06bfc100/transformed/firebase-common-21.0.0/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.play:integrity:1.3.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d0610f5fd6cec23d5fbeaca354e9044e/transformed/integrity-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/c8faa4933c4c4dc13cbb6238b2b19d4c/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/318c6db294c9d66871be23c4b5e11f1f/transformed/play-services-basement-18.4.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment:1.5.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/ec243e4742f65569d1495a40b15da59b/transformed/fragment-1.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.13.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/7980810a999af513976d65b9458ea57c/transformed/activity-1.13.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-compose:1.13.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/91990a9a2b9caca5947b06bd0e2ed394/transformed/activity-compose-1.13.0/AndroidManifest.xml:2:1-7:12
+MERGED from [:core:model] /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/core/model/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/06e11805aaf84d60b3baf4c259528b30/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.18.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/206c44e4831108af2f2ec4c93dbe5658/transformed/core-ktx-1.18.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/4bb547a1af66bcf90264e1c6ea162298/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-viewtree:1.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/611a5f93f063a96e5c62ba8fec5d55d8/transformed/core-viewtree-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/68b80040c8ae096464d9fd4f6c5b867e/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6538c51b7a52c45890d9e752cfad7dd6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/65e1e5d9b1376c441a6df67322dccaaf/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/39eabf88cce6665ac245cddb89656ee5/transformed/tracing-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/f18e975cf39b89b8f6be3dda066b05f6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/3c2e60ac0663f94f2ecb192f89714905/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:18.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/526b9c152fdd225a81e20aea979823a6/transformed/firebase-components-18.0.0/AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/b6b951a28bd35dbbc3885316a93d6b7a/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6c0c05e80c228eeee09794036d075c29/transformed/googleid-1.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.dagger:dagger-lint-aar:2.52] /Users/silvioivanio/.gradle/caches/8.13/transforms/990746484bf8c93ade3d4ebd6680f76b/transformed/dagger-lint-aar-2.52/AndroidManifest.xml:16:1-19:12
+MERGED from [io.grpc:grpc-android:1.62.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/29d45bbfb6f02a0146c630b6f9385cca/transformed/grpc-android-1.62.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/cc94bc6f285ee4cec0903fa4f433df46/transformed/protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.play:core-common:2.0.3] /Users/silvioivanio/.gradle/caches/8.13/transforms/693eda4ed5d15f1556c60b7f65dddda1/transformed/core-common-2.0.3/AndroidManifest.xml:2:1-21:12
+	package
+		INJECTED from /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [com.google.firebase:firebase-auth:23.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d62c6174c74ecbda1b6b992afec00447/transformed/firebase-auth-23.1.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-auth:23.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d62c6174c74ecbda1b6b992afec00447/transformed/firebase-auth-23.1.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/2ce38c592052e7bf41773f1717af407a/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/2ce38c592052e7bf41773f1717af407a/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/1f8f12dc577e054da1aa650e5eb9b6de/transformed/recaptcha-18.5.1/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/1f8f12dc577e054da1aa650e5eb9b6de/transformed/recaptcha-18.5.1/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/app/src/main/AndroidManifest.xml:6:5-79
+MERGED from [com.google.firebase:firebase-auth:23.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d62c6174c74ecbda1b6b992afec00447/transformed/firebase-auth-23.1.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-auth:23.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d62c6174c74ecbda1b6b992afec00447/transformed/firebase-auth-23.1.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/2ce38c592052e7bf41773f1717af407a/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/2ce38c592052e7bf41773f1717af407a/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/1f8f12dc577e054da1aa650e5eb9b6de/transformed/recaptcha-18.5.1/AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/1f8f12dc577e054da1aa650e5eb9b6de/transformed/recaptcha-18.5.1/AndroidManifest.xml:8:5-79
+MERGED from [io.grpc:grpc-android:1.62.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/29d45bbfb6f02a0146c630b6f9385cca/transformed/grpc-android-1.62.2/AndroidManifest.xml:7:5-79
+MERGED from [io.grpc:grpc-android:1.62.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/29d45bbfb6f02a0146c630b6f9385cca/transformed/grpc-android-1.62.2/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/app/src/main/AndroidManifest.xml:6:22-76
+application
+ADDED from /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/app/src/main/AndroidManifest.xml:8:5-29:19
+INJECTED from /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/app/src/main/AndroidManifest.xml:8:5-29:19
+MERGED from [com.google.firebase:firebase-auth:23.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d62c6174c74ecbda1b6b992afec00447/transformed/firebase-auth-23.1.0/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:23.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d62c6174c74ecbda1b6b992afec00447/transformed/firebase-auth-23.1.0/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/2ce38c592052e7bf41773f1717af407a/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/2ce38c592052e7bf41773f1717af407a/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:13:5-24:19
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/silvioivanio/.gradle/caches/8.13/transforms/a7b43e0f5317ce55acc01dfe0ad1c7c8/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:23:5-42:19
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/silvioivanio/.gradle/caches/8.13/transforms/a7b43e0f5317ce55acc01dfe0ad1c7c8/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:23:5-42:19
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/a08559c4e95e3226e021fee4ed6daf47/transformed/play-services-auth-20.7.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/a08559c4e95e3226e021fee4ed6daf47/transformed/play-services-auth-20.7.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8149d02fda6d8af1ae60b39f495d5f84/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8149d02fda6d8af1ae60b39f495d5f84/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/a8022d9b96ec84b7a2dc58ede3aa5042/transformed/play-services-fido-20.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/a8022d9b96ec84b7a2dc58ede3aa5042/transformed/play-services-fido-20.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/161514673d36704666b6c387005b6acc/transformed/play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/161514673d36704666b6c387005b6acc/transformed/play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/9947b98e3f027f020ad0cc1eb1338202/transformed/ui-test-manifest-1.9.2/AndroidManifest.xml:22:5-27:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/9947b98e3f027f020ad0cc1eb1338202/transformed/ui-test-manifest-1.9.2/AndroidManifest.xml:22:5-27:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/00895d9c57556936b2f9dacc8780e3de/transformed/ui-tooling/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/00895d9c57556936b2f9dacc8780e3de/transformed/ui-tooling/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8271f1aa6998f71b4f04e183e6731f2e/transformed/emoji2-1.4.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8271f1aa6998f71b4f04e183e6731f2e/transformed/emoji2-1.4.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.18.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8c0981d679dffc375684bc2424e1aaa5/transformed/core-1.18.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.18.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8c0981d679dffc375684bc2424e1aaa5/transformed/core-1.18.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.10.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/ea186d648ccec84c6bb05a218ea8e33f/transformed/lifecycle-process-2.10.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.10.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/ea186d648ccec84c6bb05a218ea8e33f/transformed/lifecycle-process-2.10.0/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/696a49a864f749b102067dbfc9340e3b/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/696a49a864f749b102067dbfc9340e3b/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d39a117771608f496c578e84aa812b4f/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d39a117771608f496c578e84aa812b4f/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8005ab06b4b1c66aaf74e12c06bfc100/transformed/firebase-common-21.0.0/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8005ab06b4b1c66aaf74e12c06bfc100/transformed/firebase-common-21.0.0/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.android.play:integrity:1.3.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d0610f5fd6cec23d5fbeaca354e9044e/transformed/integrity-1.3.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.3.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d0610f5fd6cec23d5fbeaca354e9044e/transformed/integrity-1.3.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/c8faa4933c4c4dc13cbb6238b2b19d4c/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/c8faa4933c4c4dc13cbb6238b2b19d4c/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/318c6db294c9d66871be23c4b5e11f1f/transformed/play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/318c6db294c9d66871be23c4b5e11f1f/transformed/play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6538c51b7a52c45890d9e752cfad7dd6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6538c51b7a52c45890d9e752cfad7dd6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/65e1e5d9b1376c441a6df67322dccaaf/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/65e1e5d9b1376c441a6df67322dccaaf/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/f18e975cf39b89b8f6be3dda066b05f6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/f18e975cf39b89b8f6be3dda066b05f6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.play:core-common:2.0.3] /Users/silvioivanio/.gradle/caches/8.13/transforms/693eda4ed5d15f1556c60b7f65dddda1/transformed/core-common-2.0.3/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.android.play:core-common:2.0.3] /Users/silvioivanio/.gradle/caches/8.13/transforms/693eda4ed5d15f1556c60b7f65dddda1/transformed/core-common-2.0.3/AndroidManifest.xml:11:5-19:19
+	android:extractNativeLibs
+		INJECTED from /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.18.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8c0981d679dffc375684bc2424e1aaa5/transformed/core-1.18.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/app/src/main/AndroidManifest.xml:16:9-35
+	android:label
+		ADDED from /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/app/src/main/AndroidManifest.xml:14:9-41
+	android:fullBackupContent
+		ADDED from /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/app/src/main/AndroidManifest.xml:12:9-54
+	android:roundIcon
+		ADDED from /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/app/src/main/AndroidManifest.xml:15:9-54
+	android:icon
+		ADDED from /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/app/src/main/AndroidManifest.xml:13:9-43
+	android:allowBackup
+		ADDED from /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/app/src/main/AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/app/src/main/AndroidManifest.xml:17:9-53
+	android:dataExtractionRules
+		ADDED from /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/app/src/main/AndroidManifest.xml:11:9-65
+	android:name
+		ADDED from /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/app/src/main/AndroidManifest.xml:9:9-43
+activity#com.nust.valentinegarage.MainActivity
+ADDED from /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/app/src/main/AndroidManifest.xml:18:9-28:20
+	android:label
+		ADDED from /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/app/src/main/AndroidManifest.xml:21:13-45
+	android:exported
+		ADDED from /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/app/src/main/AndroidManifest.xml:20:13-36
+	android:theme
+		ADDED from /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/app/src/main/AndroidManifest.xml:22:13-57
+	android:name
+		ADDED from /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/app/src/main/AndroidManifest.xml:19:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/app/src/main/AndroidManifest.xml:23:13-27:29
+action#android.intent.action.MAIN
+ADDED from /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/app/src/main/AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/app/src/main/AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/app/src/main/AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/app/src/main/AndroidManifest.xml:26:27-74
+uses-sdk
+INJECTED from /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/app/src/main/AndroidManifest.xml
+INJECTED from /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/app/src/main/AndroidManifest.xml
+MERGED from [androidx.hilt:hilt-navigation-compose:1.2.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/a595851c4f2431be9a5987d362e0a128/transformed/hilt-navigation-compose-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.hilt:hilt-navigation-compose:1.2.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/a595851c4f2431be9a5987d362e0a128/transformed/hilt-navigation-compose-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.hilt:hilt-navigation:1.2.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6f376d2485d8787a42c1929191896036/transformed/hilt-navigation-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.hilt:hilt-navigation:1.2.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6f376d2485d8787a42c1929191896036/transformed/hilt-navigation-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common:2.8.3] /Users/silvioivanio/.gradle/caches/8.13/transforms/b75aca4387e27856ab69555d97716212/transformed/navigation-common-2.8.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.8.3] /Users/silvioivanio/.gradle/caches/8.13/transforms/b75aca4387e27856ab69555d97716212/transformed/navigation-common-2.8.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.3] /Users/silvioivanio/.gradle/caches/8.13/transforms/da442483114798b935097aaec6ca680b/transformed/navigation-runtime-2.8.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.3] /Users/silvioivanio/.gradle/caches/8.13/transforms/da442483114798b935097aaec6ca680b/transformed/navigation-runtime-2.8.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.3] /Users/silvioivanio/.gradle/caches/8.13/transforms/bc6a7d60cf012fcf5cfe24b6a70a7183/transformed/navigation-common-ktx-2.8.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.3] /Users/silvioivanio/.gradle/caches/8.13/transforms/bc6a7d60cf012fcf5cfe24b6a70a7183/transformed/navigation-common-ktx-2.8.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.3] /Users/silvioivanio/.gradle/caches/8.13/transforms/008b49861ad77ed5ba470b750df95c0c/transformed/navigation-runtime-ktx-2.8.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.3] /Users/silvioivanio/.gradle/caches/8.13/transforms/008b49861ad77ed5ba470b750df95c0c/transformed/navigation-runtime-ktx-2.8.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.8.3] /Users/silvioivanio/.gradle/caches/8.13/transforms/2dbe44666551a0eb374b5757c5946285/transformed/navigation-compose-2.8.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.8.3] /Users/silvioivanio/.gradle/caches/8.13/transforms/2dbe44666551a0eb374b5757c5946285/transformed/navigation-compose-2.8.3/AndroidManifest.xml:5:5-44
+MERGED from [:feature:auth] /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/feature/auth/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:feature:auth] /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/feature/auth/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:feature:checkin] /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/feature/checkin/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:feature:checkin] /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/feature/checkin/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:feature:mechanic] /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/feature/mechanic/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:feature:mechanic] /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/feature/mechanic/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:feature:admin] /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/feature/admin/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:feature:admin] /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/feature/admin/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:core:data] /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/core/data/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:core:data] /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/core/data/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [com.google.dagger:hilt-android:2.52] /Users/silvioivanio/.gradle/caches/8.13/transforms/c24dcda4df0581db36af4188fad6a4a0/transformed/hilt-android-2.52/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:hilt-android:2.52] /Users/silvioivanio/.gradle/caches/8.13/transforms/c24dcda4df0581db36af4188fad6a4a0/transformed/hilt-android-2.52/AndroidManifest.xml:18:3-42
+MERGED from [com.google.firebase:firebase-auth:23.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d62c6174c74ecbda1b6b992afec00447/transformed/firebase-auth-23.1.0/AndroidManifest.xml:21:5-23:151
+MERGED from [com.google.firebase:firebase-auth:23.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d62c6174c74ecbda1b6b992afec00447/transformed/firebase-auth-23.1.0/AndroidManifest.xml:21:5-23:151
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/2ce38c592052e7bf41773f1717af407a/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/2ce38c592052e7bf41773f1717af407a/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:6:5-44
+MERGED from [:core:domain] /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/core/domain/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:core:domain] /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/core/domain/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/e032dea0267bf19b7620e9debc34a887/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/e032dea0267bf19b7620e9debc34a887/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d837713daa5b2879173556cd92f63c71/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d837713daa5b2879173556cd92f63c71/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/c2855e5696380716f6947f8d8d36a61f/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/c2855e5696380716f6947f8d8d36a61f/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] /Users/silvioivanio/.gradle/caches/8.13/transforms/df24fafb81c4a863c3d8b436fe9c2333/transformed/credentials-1.2.0-rc01/AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] /Users/silvioivanio/.gradle/caches/8.13/transforms/df24fafb81c4a863c3d8b436fe9c2333/transformed/credentials-1.2.0-rc01/AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/silvioivanio/.gradle/caches/8.13/transforms/a7b43e0f5317ce55acc01dfe0ad1c7c8/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:21:5-44
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/silvioivanio/.gradle/caches/8.13/transforms/a7b43e0f5317ce55acc01dfe0ad1c7c8/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/a08559c4e95e3226e021fee4ed6daf47/transformed/play-services-auth-20.7.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/a08559c4e95e3226e021fee4ed6daf47/transformed/play-services-auth-20.7.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/bfc73ebd667019ecb3505b2a1eb6dcf2/transformed/play-services-auth-api-phone-18.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/bfc73ebd667019ecb3505b2a1eb6dcf2/transformed/play-services-auth-api-phone-18.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8149d02fda6d8af1ae60b39f495d5f84/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8149d02fda6d8af1ae60b39f495d5f84/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/763dae5cd892cec0ef582d93e388406c/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/763dae5cd892cec0ef582d93e388406c/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/a8022d9b96ec84b7a2dc58ede3aa5042/transformed/play-services-fido-20.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/a8022d9b96ec84b7a2dc58ede3aa5042/transformed/play-services-fido-20.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/silvioivanio/.gradle/caches/8.13/transforms/3f0d3334a147473eff223914ce67a6bf/transformed/play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/silvioivanio/.gradle/caches/8.13/transforms/3f0d3334a147473eff223914ce67a6bf/transformed/play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/161514673d36704666b6c387005b6acc/transformed/play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/161514673d36704666b6c387005b6acc/transformed/play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [androidx.customview:customview:1.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/739afbc9d69f938fc9220f6e1a0cec11/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/739afbc9d69f938fc9220f6e1a0cec11/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [:core:ui] /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/core/ui/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:core:ui] /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/core/ui/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigationevent:navigationevent-android:1.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/91d59f73ffd6b0000ffbb99566ce6c7a/transformed/navigationevent/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigationevent:navigationevent-android:1.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/91d59f73ffd6b0000ffbb99566ce6c7a/transformed/navigationevent/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigationevent:navigationevent-compose-android:1.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/afe3d5d346b6f484bceec5610c679b62/transformed/navigationevent-compose/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigationevent:navigationevent-compose-android:1.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/afe3d5d346b6f484bceec5610c679b62/transformed/navigationevent-compose/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/c7295aeabec523eb600d555b69450700/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/c7295aeabec523eb600d555b69450700/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6dbfa642995cbe8c9a0cf4bb1435b1e0/transformed/material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6dbfa642995cbe8c9a0cf4bb1435b1e0/transformed/material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/1c9bca518d93314702aa070ef56f33a8/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/1c9bca518d93314702aa070ef56f33a8/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/79f8aa52cc87fde257f1ca6ed97644e0/transformed/ui-tooling-data/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/79f8aa52cc87fde257f1ca6ed97644e0/transformed/ui-tooling-data/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/c2175ec56a3991cfd30b7315272475ba/transformed/ui-tooling-preview/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/c2175ec56a3991cfd30b7315272475ba/transformed/ui-tooling-preview/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/a4162e500fefb8c827333991b5a90fb5/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/a4162e500fefb8c827333991b5a90fb5/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/3ae2f06d2474481b9bfc0f2545e4d304/transformed/foundation-layout/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/3ae2f06d2474481b9bfc0f2545e4d304/transformed/foundation-layout/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/580243d7fe999566372cecdef2230108/transformed/animation-core/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/580243d7fe999566372cecdef2230108/transformed/animation-core/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/fd685d8facbd50322b69d2b12e77185e/transformed/animation/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/fd685d8facbd50322b69d2b12e77185e/transformed/animation/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/2e5540e4b581a5f64c4a5e5f9fe8e700/transformed/ui-util/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/2e5540e4b581a5f64c4a5e5f9fe8e700/transformed/ui-util/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/105e72e8659b4568e4d3a85ad5d5c5cd/transformed/ui-unit/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/105e72e8659b4568e4d3a85ad5d5c5cd/transformed/ui-unit/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/3c2867728e1562cb5f4dcc1e782fbbef/transformed/ui-text/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/3c2867728e1562cb5f4dcc1e782fbbef/transformed/ui-text/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/e0fdbe03efba43c5575bf95b7f32bc18/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/e0fdbe03efba43c5575bf95b7f32bc18/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/7948c2984633ff2b7f4d6a47b070be9e/transformed/ui-geometry/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/7948c2984633ff2b7f4d6a47b070be9e/transformed/ui-geometry/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/9947b98e3f027f020ad0cc1eb1338202/transformed/ui-test-manifest-1.9.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/9947b98e3f027f020ad0cc1eb1338202/transformed/ui-test-manifest-1.9.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/00895d9c57556936b2f9dacc8780e3de/transformed/ui-tooling/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/00895d9c57556936b2f9dacc8780e3de/transformed/ui-tooling/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-android:1.7.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/df7b8c2958ed9deb4adabc58c0d385c6/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.7.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/df7b8c2958ed9deb4adabc58c0d385c6/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/e3af008fd55a512f00cf6a8def6dc0c9/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/e3af008fd55a512f00cf6a8def6dc0c9/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/632fdbd67c887e8ac1d33b15dcf4d4d5/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/632fdbd67c887e8ac1d33b15dcf4d4d5/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/992aa7858144decb1b7db80b1f091bb5/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/992aa7858144decb1b7db80b1f091bb5/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/0759f5f03907642e8d0636094db8041f/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/0759f5f03907642e8d0636094db8041f/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8271f1aa6998f71b4f04e183e6731f2e/transformed/emoji2-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8271f1aa6998f71b4f04e183e6731f2e/transformed/emoji2-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.core:core:1.18.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8c0981d679dffc375684bc2424e1aaa5/transformed/core-1.18.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.18.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8c0981d679dffc375684bc2424e1aaa5/transformed/core-1.18.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.13.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/727b7a809cbd955ec443a164c46a0d9e/transformed/activity-ktx-1.13.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.13.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/727b7a809cbd955ec443a164c46a0d9e/transformed/activity-ktx-1.13.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.10.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/ea186d648ccec84c6bb05a218ea8e33f/transformed/lifecycle-process-2.10.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.10.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/ea186d648ccec84c6bb05a218ea8e33f/transformed/lifecycle-process-2.10.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.10.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/e09f970e6876347c4f854008a608dcfa/transformed/lifecycle-livedata-core-ktx-2.10.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.10.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/e09f970e6876347c4f854008a608dcfa/transformed/lifecycle-livedata-core-ktx-2.10.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/254f2cae900bd513e529c79fe8c09ce1/transformed/lifecycle-viewmodel-ktx-2.10.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/254f2cae900bd513e529c79fe8c09ce1/transformed/lifecycle-viewmodel-ktx-2.10.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.10.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d3d6fcfe77ebabec477885b1e9d8016c/transformed/lifecycle-livedata-2.10.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.10.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d3d6fcfe77ebabec477885b1e9d8016c/transformed/lifecycle-livedata-2.10.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.10.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/52fb4e6625d20a32ade031fc5aabe243/transformed/lifecycle-viewmodel-savedstate/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.10.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/52fb4e6625d20a32ade031fc5aabe243/transformed/lifecycle-viewmodel-savedstate/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.10.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/2ca30a28cab0463221ca3ded3706928c/transformed/lifecycle-viewmodel-2.10.0/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.10.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/2ca30a28cab0463221ca3ded3706928c/transformed/lifecycle-viewmodel-2.10.0/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.10.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/42c61585671951e4a5bb58e5714c1049/transformed/lifecycle-viewmodel/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.10.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/42c61585671951e4a5bb58e5714c1049/transformed/lifecycle-viewmodel/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-annotation-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/b93fd0e972d66a5ab226144dbb11ade6/transformed/runtime-annotation/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-annotation-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/b93fd0e972d66a5ab226144dbb11ade6/transformed/runtime-annotation/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6a7b86acccf894d4f09305eee21597a6/transformed/savedstate-ktx-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6a7b86acccf894d4f09305eee21597a6/transformed/savedstate-ktx-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-android:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/e520525276768b4e78376e85c356b215/transformed/savedstate/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-android:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/e520525276768b4e78376e85c356b215/transformed/savedstate/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-compose-android:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/9b1be4796c3710c5c33cc010c78c8c06/transformed/savedstate-compose/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-compose-android:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/9b1be4796c3710c5c33cc010c78c8c06/transformed/savedstate-compose/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/f29666f865223129c2ac5b22ca61f27a/transformed/runtime/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/f29666f865223129c2ac5b22ca61f27a/transformed/runtime/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/a4b014fb88fed76d6e2d9b079d00ef82/transformed/runtime-saveable/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/a4b014fb88fed76d6e2d9b079d00ef82/transformed/runtime-saveable/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.10.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/fd342c9e143f4b38b93a329bc5414ab7/transformed/lifecycle-runtime-compose/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.10.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/fd342c9e143f4b38b93a329bc5414ab7/transformed/lifecycle-runtime-compose/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.10.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/280d0b9c725f71c8ad7107e4dfd400e0/transformed/lifecycle-runtime/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.10.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/280d0b9c725f71c8ad7107e4dfd400e0/transformed/lifecycle-runtime/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.10.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/79a9c0e1ca30a2db8fd1d9a1bfafbc1b/transformed/lifecycle-viewmodel-compose/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.10.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/79a9c0e1ca30a2db8fd1d9a1bfafbc1b/transformed/lifecycle-viewmodel-compose/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.10.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6f8ba4ac41d4307fc81197666ee47332/transformed/lifecycle-livedata-core-2.10.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.10.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6f8ba4ac41d4307fc81197666ee47332/transformed/lifecycle-livedata-core-2.10.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.10.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6b8d05c94cfd9842553a0b13c451ecac/transformed/lifecycle-runtime-ktx/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.10.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6b8d05c94cfd9842553a0b13c451ecac/transformed/lifecycle-runtime-ktx/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/1f8f12dc577e054da1aa650e5eb9b6de/transformed/recaptcha-18.5.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/1f8f12dc577e054da1aa650e5eb9b6de/transformed/recaptcha-18.5.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/696a49a864f749b102067dbfc9340e3b/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/696a49a864f749b102067dbfc9340e3b/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d39a117771608f496c578e84aa812b4f/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d39a117771608f496c578e84aa812b4f/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8005ab06b4b1c66aaf74e12c06bfc100/transformed/firebase-common-21.0.0/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8005ab06b4b1c66aaf74e12c06bfc100/transformed/firebase-common-21.0.0/AndroidManifest.xml:19:5-44
+MERGED from [com.google.android.play:integrity:1.3.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d0610f5fd6cec23d5fbeaca354e9044e/transformed/integrity-1.3.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.3.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d0610f5fd6cec23d5fbeaca354e9044e/transformed/integrity-1.3.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/c8faa4933c4c4dc13cbb6238b2b19d4c/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/c8faa4933c4c4dc13cbb6238b2b19d4c/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/318c6db294c9d66871be23c4b5e11f1f/transformed/play-services-basement-18.4.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/318c6db294c9d66871be23c4b5e11f1f/transformed/play-services-basement-18.4.0/AndroidManifest.xml:3:5-44
+MERGED from [androidx.fragment:fragment:1.5.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/ec243e4742f65569d1495a40b15da59b/transformed/fragment-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/ec243e4742f65569d1495a40b15da59b/transformed/fragment-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.13.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/7980810a999af513976d65b9458ea57c/transformed/activity-1.13.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.13.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/7980810a999af513976d65b9458ea57c/transformed/activity-1.13.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.13.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/91990a9a2b9caca5947b06bd0e2ed394/transformed/activity-compose-1.13.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.13.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/91990a9a2b9caca5947b06bd0e2ed394/transformed/activity-compose-1.13.0/AndroidManifest.xml:5:5-44
+MERGED from [:core:model] /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/core/model/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:core:model] /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/core/model/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/06e11805aaf84d60b3baf4c259528b30/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/06e11805aaf84d60b3baf4c259528b30/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.18.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/206c44e4831108af2f2ec4c93dbe5658/transformed/core-ktx-1.18.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.18.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/206c44e4831108af2f2ec4c93dbe5658/transformed/core-ktx-1.18.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/4bb547a1af66bcf90264e1c6ea162298/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/4bb547a1af66bcf90264e1c6ea162298/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/611a5f93f063a96e5c62ba8fec5d55d8/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/611a5f93f063a96e5c62ba8fec5d55d8/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/68b80040c8ae096464d9fd4f6c5b867e/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/68b80040c8ae096464d9fd4f6c5b867e/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6538c51b7a52c45890d9e752cfad7dd6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6538c51b7a52c45890d9e752cfad7dd6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/65e1e5d9b1376c441a6df67322dccaaf/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/65e1e5d9b1376c441a6df67322dccaaf/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/39eabf88cce6665ac245cddb89656ee5/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/39eabf88cce6665ac245cddb89656ee5/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/f18e975cf39b89b8f6be3dda066b05f6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/f18e975cf39b89b8f6be3dda066b05f6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/3c2e60ac0663f94f2ecb192f89714905/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/3c2e60ac0663f94f2ecb192f89714905/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/526b9c152fdd225a81e20aea979823a6/transformed/firebase-components-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/526b9c152fdd225a81e20aea979823a6/transformed/firebase-components-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/b6b951a28bd35dbbc3885316a93d6b7a/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/b6b951a28bd35dbbc3885316a93d6b7a/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6c0c05e80c228eeee09794036d075c29/transformed/googleid-1.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6c0c05e80c228eeee09794036d075c29/transformed/googleid-1.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.dagger:dagger-lint-aar:2.52] /Users/silvioivanio/.gradle/caches/8.13/transforms/990746484bf8c93ade3d4ebd6680f76b/transformed/dagger-lint-aar-2.52/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-lint-aar:2.52] /Users/silvioivanio/.gradle/caches/8.13/transforms/990746484bf8c93ade3d4ebd6680f76b/transformed/dagger-lint-aar-2.52/AndroidManifest.xml:18:3-42
+MERGED from [io.grpc:grpc-android:1.62.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/29d45bbfb6f02a0146c630b6f9385cca/transformed/grpc-android-1.62.2/AndroidManifest.xml:5:5-44
+MERGED from [io.grpc:grpc-android:1.62.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/29d45bbfb6f02a0146c630b6f9385cca/transformed/grpc-android-1.62.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/cc94bc6f285ee4cec0903fa4f433df46/transformed/protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/cc94bc6f285ee4cec0903fa4f433df46/transformed/protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.play:core-common:2.0.3] /Users/silvioivanio/.gradle/caches/8.13/transforms/693eda4ed5d15f1556c60b7f65dddda1/transformed/core-common-2.0.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.play:core-common:2.0.3] /Users/silvioivanio/.gradle/caches/8.13/transforms/693eda4ed5d15f1556c60b7f65dddda1/transformed/core-common-2.0.3/AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d62c6174c74ecbda1b6b992afec00447/transformed/firebase-auth-23.1.0/AndroidManifest.xml:23:9-148
+	android:targetSdkVersion
+		INJECTED from /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/silvioivanio/Documents/NUST/MAP711S/Assignments/Group Project/Valentine Garage/app/src/main/AndroidManifest.xml
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d62c6174c74ecbda1b6b992afec00447/transformed/firebase-auth-23.1.0/AndroidManifest.xml:29:9-46:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d62c6174c74ecbda1b6b992afec00447/transformed/firebase-auth-23.1.0/AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d62c6174c74ecbda1b6b992afec00447/transformed/firebase-auth-23.1.0/AndroidManifest.xml:33:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d62c6174c74ecbda1b6b992afec00447/transformed/firebase-auth-23.1.0/AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d62c6174c74ecbda1b6b992afec00447/transformed/firebase-auth-23.1.0/AndroidManifest.xml:34:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d62c6174c74ecbda1b6b992afec00447/transformed/firebase-auth-23.1.0/AndroidManifest.xml:30:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d62c6174c74ecbda1b6b992afec00447/transformed/firebase-auth-23.1.0/AndroidManifest.xml:35:13-45:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d62c6174c74ecbda1b6b992afec00447/transformed/firebase-auth-23.1.0/AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d62c6174c74ecbda1b6b992afec00447/transformed/firebase-auth-23.1.0/AndroidManifest.xml:36:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d62c6174c74ecbda1b6b992afec00447/transformed/firebase-auth-23.1.0/AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d62c6174c74ecbda1b6b992afec00447/transformed/firebase-auth-23.1.0/AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d62c6174c74ecbda1b6b992afec00447/transformed/firebase-auth-23.1.0/AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d62c6174c74ecbda1b6b992afec00447/transformed/firebase-auth-23.1.0/AndroidManifest.xml:39:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d62c6174c74ecbda1b6b992afec00447/transformed/firebase-auth-23.1.0/AndroidManifest.xml:41:17-44:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d62c6174c74ecbda1b6b992afec00447/transformed/firebase-auth-23.1.0/AndroidManifest.xml:43:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d62c6174c74ecbda1b6b992afec00447/transformed/firebase-auth-23.1.0/AndroidManifest.xml:42:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d62c6174c74ecbda1b6b992afec00447/transformed/firebase-auth-23.1.0/AndroidManifest.xml:44:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d62c6174c74ecbda1b6b992afec00447/transformed/firebase-auth-23.1.0/AndroidManifest.xml:47:9-64:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d62c6174c74ecbda1b6b992afec00447/transformed/firebase-auth-23.1.0/AndroidManifest.xml:49:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d62c6174c74ecbda1b6b992afec00447/transformed/firebase-auth-23.1.0/AndroidManifest.xml:51:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d62c6174c74ecbda1b6b992afec00447/transformed/firebase-auth-23.1.0/AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d62c6174c74ecbda1b6b992afec00447/transformed/firebase-auth-23.1.0/AndroidManifest.xml:52:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d62c6174c74ecbda1b6b992afec00447/transformed/firebase-auth-23.1.0/AndroidManifest.xml:48:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d62c6174c74ecbda1b6b992afec00447/transformed/firebase-auth-23.1.0/AndroidManifest.xml:53:13-63:29
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d62c6174c74ecbda1b6b992afec00447/transformed/firebase-auth-23.1.0/AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/2ce38c592052e7bf41773f1717af407a/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/2ce38c592052e7bf41773f1717af407a/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d39a117771608f496c578e84aa812b4f/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d39a117771608f496c578e84aa812b4f/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8005ab06b4b1c66aaf74e12c06bfc100/transformed/firebase-common-21.0.0/AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8005ab06b4b1c66aaf74e12c06bfc100/transformed/firebase-common-21.0.0/AndroidManifest.xml:30:9-38:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d62c6174c74ecbda1b6b992afec00447/transformed/firebase-auth-23.1.0/AndroidManifest.xml:68:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8005ab06b4b1c66aaf74e12c06bfc100/transformed/firebase-common-21.0.0/AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8005ab06b4b1c66aaf74e12c06bfc100/transformed/firebase-common-21.0.0/AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d62c6174c74ecbda1b6b992afec00447/transformed/firebase-auth-23.1.0/AndroidManifest.xml:67:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d62c6174c74ecbda1b6b992afec00447/transformed/firebase-auth-23.1.0/AndroidManifest.xml:69:13-71:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d62c6174c74ecbda1b6b992afec00447/transformed/firebase-auth-23.1.0/AndroidManifest.xml:71:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d62c6174c74ecbda1b6b992afec00447/transformed/firebase-auth-23.1.0/AndroidManifest.xml:70:17-109
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar
+ADDED from [com.google.firebase:firebase-firestore:25.1.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/2ce38c592052e7bf41773f1717af407a/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:25.1.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/2ce38c592052e7bf41773f1717af407a/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:25.1.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/2ce38c592052e7bf41773f1717af407a/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:18:17-122
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:25.1.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/2ce38c592052e7bf41773f1717af407a/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:25.1.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/2ce38c592052e7bf41773f1717af407a/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:25.1.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/2ce38c592052e7bf41773f1717af407a/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:21:17-111
+service#androidx.credentials.playservices.CredentialProviderMetadataHolder
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/silvioivanio/.gradle/caches/8.13/transforms/a7b43e0f5317ce55acc01dfe0ad1c7c8/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:24:9-32:19
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/silvioivanio/.gradle/caches/8.13/transforms/a7b43e0f5317ce55acc01dfe0ad1c7c8/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:26:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/silvioivanio/.gradle/caches/8.13/transforms/a7b43e0f5317ce55acc01dfe0ad1c7c8/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/silvioivanio/.gradle/caches/8.13/transforms/a7b43e0f5317ce55acc01dfe0ad1c7c8/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:28:13-60
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/silvioivanio/.gradle/caches/8.13/transforms/a7b43e0f5317ce55acc01dfe0ad1c7c8/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:25:13-94
+meta-data#androidx.credentials.CREDENTIAL_PROVIDER_KEY
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/silvioivanio/.gradle/caches/8.13/transforms/a7b43e0f5317ce55acc01dfe0ad1c7c8/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:29:13-31:104
+	android:value
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/silvioivanio/.gradle/caches/8.13/transforms/a7b43e0f5317ce55acc01dfe0ad1c7c8/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:31:17-101
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/silvioivanio/.gradle/caches/8.13/transforms/a7b43e0f5317ce55acc01dfe0ad1c7c8/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:30:17-76
+activity#androidx.credentials.playservices.HiddenActivity
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/silvioivanio/.gradle/caches/8.13/transforms/a7b43e0f5317ce55acc01dfe0ad1c7c8/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:34:9-41:20
+	android:fitsSystemWindows
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/silvioivanio/.gradle/caches/8.13/transforms/a7b43e0f5317ce55acc01dfe0ad1c7c8/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:39:13-45
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/silvioivanio/.gradle/caches/8.13/transforms/a7b43e0f5317ce55acc01dfe0ad1c7c8/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/silvioivanio/.gradle/caches/8.13/transforms/a7b43e0f5317ce55acc01dfe0ad1c7c8/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:38:13-37
+	android:configChanges
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/silvioivanio/.gradle/caches/8.13/transforms/a7b43e0f5317ce55acc01dfe0ad1c7c8/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:36:13-87
+	android:theme
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/silvioivanio/.gradle/caches/8.13/transforms/a7b43e0f5317ce55acc01dfe0ad1c7c8/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:40:13-48
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/silvioivanio/.gradle/caches/8.13/transforms/a7b43e0f5317ce55acc01dfe0ad1c7c8/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:35:13-76
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/a08559c4e95e3226e021fee4ed6daf47/transformed/play-services-auth-20.7.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/a08559c4e95e3226e021fee4ed6daf47/transformed/play-services-auth-20.7.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/a08559c4e95e3226e021fee4ed6daf47/transformed/play-services-auth-20.7.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/a08559c4e95e3226e021fee4ed6daf47/transformed/play-services-auth-20.7.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/a08559c4e95e3226e021fee4ed6daf47/transformed/play-services-auth-20.7.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/a08559c4e95e3226e021fee4ed6daf47/transformed/play-services-auth-20.7.0/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/a08559c4e95e3226e021fee4ed6daf47/transformed/play-services-auth-20.7.0/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/a08559c4e95e3226e021fee4ed6daf47/transformed/play-services-auth-20.7.0/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/a08559c4e95e3226e021fee4ed6daf47/transformed/play-services-auth-20.7.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/a08559c4e95e3226e021fee4ed6daf47/transformed/play-services-auth-20.7.0/AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/161514673d36704666b6c387005b6acc/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/161514673d36704666b6c387005b6acc/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/161514673d36704666b6c387005b6acc/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/161514673d36704666b6c387005b6acc/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+activity#androidx.activity.ComponentActivity
+ADDED from [androidx.compose.ui:ui-test-manifest:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/9947b98e3f027f020ad0cc1eb1338202/transformed/ui-test-manifest-1.9.2/AndroidManifest.xml:23:9-26:79
+	android:exported
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/9947b98e3f027f020ad0cc1eb1338202/transformed/ui-test-manifest-1.9.2/AndroidManifest.xml:25:13-36
+	android:theme
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/9947b98e3f027f020ad0cc1eb1338202/transformed/ui-test-manifest-1.9.2/AndroidManifest.xml:26:13-76
+	android:name
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/9947b98e3f027f020ad0cc1eb1338202/transformed/ui-test-manifest-1.9.2/AndroidManifest.xml:24:13-63
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/00895d9c57556936b2f9dacc8780e3de/transformed/ui-tooling/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/00895d9c57556936b2f9dacc8780e3de/transformed/ui-tooling/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.9.2] /Users/silvioivanio/.gradle/caches/8.13/transforms/00895d9c57556936b2f9dacc8780e3de/transformed/ui-tooling/AndroidManifest.xml:24:13-71
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8271f1aa6998f71b4f04e183e6731f2e/transformed/emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.10.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/ea186d648ccec84c6bb05a218ea8e33f/transformed/lifecycle-process-2.10.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.10.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/ea186d648ccec84c6bb05a218ea8e33f/transformed/lifecycle-process-2.10.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6538c51b7a52c45890d9e752cfad7dd6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6538c51b7a52c45890d9e752cfad7dd6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/65e1e5d9b1376c441a6df67322dccaaf/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/65e1e5d9b1376c441a6df67322dccaaf/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8271f1aa6998f71b4f04e183e6731f2e/transformed/emoji2-1.4.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8271f1aa6998f71b4f04e183e6731f2e/transformed/emoji2-1.4.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8271f1aa6998f71b4f04e183e6731f2e/transformed/emoji2-1.4.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8271f1aa6998f71b4f04e183e6731f2e/transformed/emoji2-1.4.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8271f1aa6998f71b4f04e183e6731f2e/transformed/emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8271f1aa6998f71b4f04e183e6731f2e/transformed/emoji2-1.4.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8271f1aa6998f71b4f04e183e6731f2e/transformed/emoji2-1.4.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.18.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8c0981d679dffc375684bc2424e1aaa5/transformed/core-1.18.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.18.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8c0981d679dffc375684bc2424e1aaa5/transformed/core-1.18.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.18.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8c0981d679dffc375684bc2424e1aaa5/transformed/core-1.18.0/AndroidManifest.xml:23:9-81
+permission#com.nust.valentinegarage.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.18.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8c0981d679dffc375684bc2424e1aaa5/transformed/core-1.18.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.18.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8c0981d679dffc375684bc2424e1aaa5/transformed/core-1.18.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.18.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8c0981d679dffc375684bc2424e1aaa5/transformed/core-1.18.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.18.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8c0981d679dffc375684bc2424e1aaa5/transformed/core-1.18.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.18.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8c0981d679dffc375684bc2424e1aaa5/transformed/core-1.18.0/AndroidManifest.xml:26:22-94
+uses-permission#com.nust.valentinegarage.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.18.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8c0981d679dffc375684bc2424e1aaa5/transformed/core-1.18.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.18.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8c0981d679dffc375684bc2424e1aaa5/transformed/core-1.18.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.10.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/ea186d648ccec84c6bb05a218ea8e33f/transformed/lifecycle-process-2.10.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.10.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/ea186d648ccec84c6bb05a218ea8e33f/transformed/lifecycle-process-2.10.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.10.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/ea186d648ccec84c6bb05a218ea8e33f/transformed/lifecycle-process-2.10.0/AndroidManifest.xml:30:17-78
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [com.google.android.recaptcha:recaptcha:18.5.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/1f8f12dc577e054da1aa650e5eb9b6de/transformed/recaptcha-18.5.1/AndroidManifest.xml:9:5-98
+	android:name
+		ADDED from [com.google.android.recaptcha:recaptcha:18.5.1] /Users/silvioivanio/.gradle/caches/8.13/transforms/1f8f12dc577e054da1aa650e5eb9b6de/transformed/recaptcha-18.5.1/AndroidManifest.xml:9:22-95
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d39a117771608f496c578e84aa812b4f/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d39a117771608f496c578e84aa812b4f/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/d39a117771608f496c578e84aa812b4f/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8005ab06b4b1c66aaf74e12c06bfc100/transformed/firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8005ab06b4b1c66aaf74e12c06bfc100/transformed/firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8005ab06b4b1c66aaf74e12c06bfc100/transformed/firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8005ab06b4b1c66aaf74e12c06bfc100/transformed/firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8005ab06b4b1c66aaf74e12c06bfc100/transformed/firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8005ab06b4b1c66aaf74e12c06bfc100/transformed/firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8005ab06b4b1c66aaf74e12c06bfc100/transformed/firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8005ab06b4b1c66aaf74e12c06bfc100/transformed/firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/8005ab06b4b1c66aaf74e12c06bfc100/transformed/firebase-common-21.0.0/AndroidManifest.xml:36:17-109
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/318c6db294c9d66871be23c4b5e11f1f/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/318c6db294c9d66871be23c4b5e11f1f/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/318c6db294c9d66871be23c4b5e11f1f/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6538c51b7a52c45890d9e752cfad7dd6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6538c51b7a52c45890d9e752cfad7dd6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6538c51b7a52c45890d9e752cfad7dd6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6538c51b7a52c45890d9e752cfad7dd6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6538c51b7a52c45890d9e752cfad7dd6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6538c51b7a52c45890d9e752cfad7dd6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6538c51b7a52c45890d9e752cfad7dd6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6538c51b7a52c45890d9e752cfad7dd6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6538c51b7a52c45890d9e752cfad7dd6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6538c51b7a52c45890d9e752cfad7dd6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6538c51b7a52c45890d9e752cfad7dd6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6538c51b7a52c45890d9e752cfad7dd6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6538c51b7a52c45890d9e752cfad7dd6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6538c51b7a52c45890d9e752cfad7dd6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6538c51b7a52c45890d9e752cfad7dd6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6538c51b7a52c45890d9e752cfad7dd6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6538c51b7a52c45890d9e752cfad7dd6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6538c51b7a52c45890d9e752cfad7dd6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6538c51b7a52c45890d9e752cfad7dd6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6538c51b7a52c45890d9e752cfad7dd6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/silvioivanio/.gradle/caches/8.13/transforms/6538c51b7a52c45890d9e752cfad7dd6/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+activity#com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+ADDED from [com.google.android.play:core-common:2.0.3] /Users/silvioivanio/.gradle/caches/8.13/transforms/693eda4ed5d15f1556c60b7f65dddda1/transformed/core-common-2.0.3/AndroidManifest.xml:14:9-18:65
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core-common:2.0.3] /Users/silvioivanio/.gradle/caches/8.13/transforms/693eda4ed5d15f1556c60b7f65dddda1/transformed/core-common-2.0.3/AndroidManifest.xml:17:13-42
+	android:exported
+		ADDED from [com.google.android.play:core-common:2.0.3] /Users/silvioivanio/.gradle/caches/8.13/transforms/693eda4ed5d15f1556c60b7f65dddda1/transformed/core-common-2.0.3/AndroidManifest.xml:16:13-37
+	android:theme
+		ADDED from [com.google.android.play:core-common:2.0.3] /Users/silvioivanio/.gradle/caches/8.13/transforms/693eda4ed5d15f1556c60b7f65dddda1/transformed/core-common-2.0.3/AndroidManifest.xml:18:13-62
+	android:name
+		ADDED from [com.google.android.play:core-common:2.0.3] /Users/silvioivanio/.gradle/caches/8.13/transforms/693eda4ed5d15f1556c60b7f65dddda1/transformed/core-common-2.0.3/AndroidManifest.xml:15:13-93

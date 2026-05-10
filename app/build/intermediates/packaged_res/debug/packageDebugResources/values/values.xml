@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">ValentineGarage</string>
+    <string name="gcm_defaultSenderId" translatable="false">1066385751946</string>
+    <string name="google_api_key" translatable="false">AIzaSyAGoALGmTx-92P7_xV1WOxJG9N9KKhbNJw</string>
+    <string name="google_app_id" translatable="false">1:1066385751946:android:9c0d072dbe62394dde1273</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAGoALGmTx-92P7_xV1WOxJG9N9KKhbNJw</string>
+    <string name="google_storage_bucket" translatable="false">valentine-garage-app.firebasestorage.app</string>
+    <string name="project_id" translatable="false">valentine-garage-app</string>
+    <style name="Theme.ValentineGarage" parent="android:Theme.Material.Light.NoActionBar"/>
+</resources>
