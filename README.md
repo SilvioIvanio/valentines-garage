@@ -128,3 +128,14 @@ This project was built collaboratively, ensuring strict separation of concerns b
 - **Performance:** We ensured strict memory management by tying all real-time listeners directly to the `ViewModelScope`, preventing memory leaks during long shifts at the garage.
 
 ---
+
+## **6. Academic Feedback & Evaluation**
+
+The project was officially evaluated and graded by **Lecturer Wilbard Lazarus** on **Saturday, 16 May 2026, 1:38 PM**, achieving an outstanding score of **92.00 / 100.00**.
+
+### **Official Feedback Comments:**
+> **"Great contribution to the project. Great Q&A. Great Project."**
+
+![alt text](image.png)
+
+---
