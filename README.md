@@ -129,11 +129,18 @@ This project was built collaboratively, ensuring strict separation of concerns b
 
 ---
 
-## **6. Academic Feedback & Evaluation**
+## **6. Academic Showcase, Q&A & Evaluation**
 
-The project was officially evaluated and graded by **Lecturer Wilbard Lazarus** on **Saturday, 16 May 2026, 1:38 PM**, achieving an outstanding score of **92.00 / 100.00**.
+On **Friday, 15 May 2026**, our team officially presented and showcased the **Valentine’s Garage App** to **Lecturer Wilbard Lazarus**. 
 
-### **Official Feedback Comments:**
+During this official academic showcase:
+- **Interactive Live Demonstration:** We demonstrated the live, role-based workflows—from vehicle check-in to real-time mechanic task-claiming and final administrative PDF audit trail reports.
+- **Architectural Defense:** We explained our decoupled multi-module architecture, showing how Dagger Hilt manages dependencies without exposing feature modules to Firebase-specific logic.
+- **Interactive Q&A Session:** The entire team participated in a rigorous and comprehensive Q&A session. We successfully answered every technical, architectural, and design decision question without hesitation, highlighting our depth of knowledge in Kotlin Coroutines, StateFlow, memory safety, and unit/instrumentation testing.
+
+Following this presentation, the project was officially graded, achieving an outstanding score of **92.00 / 100.00**.
+
+### **Official Feedback Comments from Lecturer Wilbard Lazarus:**
 > **"Great contribution to the project. Great Q&A. Great Project."**
 
 ![alt text](image.png)
